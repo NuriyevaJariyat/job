@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 375px;
+}
+.main{
+    width: 100%;
+}
+.head{
+    padding: 10px;
+    display: flex;
+}
+.home{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin-top:12px;
+    position: relative;
+    width: 55px;
+    border-right: 1px solid #444;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: black;
+    
+    display: none;
+    position: absolute;
+    right: 315px;
+    
+    
+}
+.icon:hover .menu {
+    display: block !important;
+
+}
+.text-image{
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./limon.webp) center/cover;
+  background-repeat: no-repeat; 
+  display: flex; 
+  flex-direction: column;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+  @keyframes example {
+  from { background: url(./limon.webp) center/cover; }
+  to {background:url(./restorant.webp) center/cover;}
+  }
+   
+.start{
+    margin-top: 10px;
+    border: 2px solid white;
+    padding: 5px 10px;
+}
+
+

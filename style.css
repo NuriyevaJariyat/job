@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     width: 375px;
-}
-.main{
-    width: 100%;
     
 }
+.main{
+    width: 100vw;
+}
+
+    
+
 .head{
-    padding: 10px;
+    padding-left: 5px;
     display: flex;
 }
 .home{
@@ -22,9 +28,10 @@ body{
     justify-content: space-between;
 }
 .icon{
-    margin-top:12px;
+    padding: 10px;
     width: 55px;
     border-right: 1px solid #444;
+    padding-right: 5px;
     
 }
 .text-image{
@@ -42,7 +49,8 @@ body{
   flex-direction: column;
   animation-name: example;
   animation-duration: 2s;
-  
+   
+   
 }
 
   @keyframes example {
@@ -54,7 +62,7 @@ body{
 .start{
     margin-top: 10px;
     border: 2px solid white;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
 }
 
 .lorem{
@@ -71,8 +79,6 @@ body{
 }
 .second{
     
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -82,5 +88,43 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     
+    
 }
+.dolor{
+    width: 100vw;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.photo1 img {
+    width: 30%;
+}
+.best p {
+    font-size: 18px;
+    color: #868e96;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.good{
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.best{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    opacity: 1 ;
+    transform: translate(0);
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.dish{
+    width: 100%;
+}
+
 

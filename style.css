@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 *{
     margin: 0;
@@ -96,6 +97,7 @@ body{
     padding-right: 15px;
 }
 .photo1 img {
+    margin-top: 30px;
     width: 30%;
 }
 .best p {
@@ -116,15 +118,222 @@ body{
     width: 100%;
     margin-top: 30px;
     text-align: center;
-    opacity: 1 ;
-    transform: translate(0);
     font-size: 40px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 35px;
 
 }
-.dish{
-    width: 100%;
+.empty{
+    height: 100px;
+    background-color: #F8F9FA;
+    transform: skewY(-17deg);
 }
+.dish img{
+    width:90% ;
+    padding-left: 35px;
+    margin-top: 30px;
+}
+.dish2 img{
+    width:90% ;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.dish3 img {
+    width:90% ;
+    padding-left: 35px; 
+    margin-top: 10px;
+}
+.menu{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'DM Serif Display', serif;
+}
+.web  {
+    background: url(./spaghetti.webp) center/cover ; 
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+     
+}
+
+.baked{
+    text-align: center;
+    padding-top: 200px;
+
+}
+.baked h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    line-height: 100px;
+}
+.baked p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.test h1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.card1 img{
+    width: 90%;
+    padding-left: 30px;
+    margin-top: 40px;
+    
+}
+.price1{
+    padding-left: 35px;
+    margin-top: 25px;
+    line-height: 1.4;
+    width: 82%;
+    
+}
+.many{
+    padding-top: 10px;
+    font-size: 30px;
+    color: orangered;
+}
+.new{
+    font-size: 20px;
+}
+.lorem1{
+    padding-top: 3px;
+    font-size: 16px; 
+    color: #868e96;
+    
+    font-family: 'Open Sans', sans-serif;
+
+}
+.far p{
+    width:97% ;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.account img{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   
+}
+.account{
+    padding-left: 30px;
+}
+.inform{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.test h1:before{
+    border: 2px solid orange;
+    width: 80px;
+    left: 50%;
+}
+.howard{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.howard h4{
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+.howard{
+    color: #cccc;
+    font-size: 14px;
+}
+.taste {
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.date{
+    padding-top: 5px;
+    
+}
+.far{
+    padding-top: 10px;
+    width: 80%;
+}
+.read{
+    margin-top: 20px;
+    width: 100px;
+    background-color: orangered;
+    padding: 5px;
+    padding-left: 10px;
+    color: white;
+
+}
+.food{
+    color: orangered;
+    font-size: 20px;
+}
+.date , .far  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#868e96;
+}
+
+footer{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.end .lorem1{
+    padding-top: 15px;
+    width: 90%;
+}
+.picture{
+    display: flex;
+    margin-top: 20px;
+}
+.logo img{
+    width: 33px;
+    padding-right: 15px;
+}
+ul{
+    text-decoration: none;
+}
+
+.spisok{
+    padding-top: 40px;
+}
+.font{
+    padding-top: 15px;
+    line-height: 1.5;
+}
+.day{
+    color: #000;
+}
+.number{
+    color: #868e96;
+    
+}
+.info{
+    padding-top: 35px;
+}
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.guik{
+    padding-top: 30px;
+    line-height: 1.8;
+}
+.about{
+    line-height: 1.8;
+    color: orangered;
+}
+.about p:hover{
+    color: #74450f;
+}
+
+
+ 
+
 
 

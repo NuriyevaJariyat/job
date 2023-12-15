@@ -28,6 +28,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.servic{
+    display: none;
+}
 .icon{
     padding: 10px;
     width: 55px;
@@ -63,7 +67,14 @@ body{
 .start{
     margin-top: 10px;
     border: 2px solid white;
-    /* padding: 5px 10px; */
+    padding: 10px 15px;
+}
+.gourmet{
+    font-size: 50px;
+    font-weight: 800;
+}
+.special{
+    color: chocolate;
 }
 
 .lorem{
@@ -131,18 +142,18 @@ body{
 }
 .dish img{
     width:90% ;
-    padding-left: 35px;
+    padding-left: 25px;
     margin-top: 30px;
 }
 .dish2 img{
     width:90% ;
-    padding-left: 35px;
-    margin-top: 10px;
+    padding-left: 25px;
+    margin-top: 26px;
 }
 .dish3 img {
     width:90% ;
-    padding-left: 35px; 
-    margin-top: 10px;
+    padding-left: 25px; 
+    margin-top: 26px;
 }
 .menu{
     margin-top: 150px;
@@ -157,6 +168,20 @@ body{
     height: 600px;
     margin-top: 40px;
      
+}
+.web2{
+    background: url(./dish4.webp) center/cover; 
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    display: none;
+}
+.web3{
+    background: url(./dish5.webp) center/cover; 
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    display: none; 
 }
 
 .baked{
@@ -182,19 +207,74 @@ body{
     font-weight: 800;
 
 }
-.card1 img{
-    width: 90%;
-    padding-left: 30px;
-    margin-top: 40px;
+
+.menu-photo{
+    background: url(./dish1.webp) center/cover;
+    height: 300px;
+    width: 100vw;
     
 }
+.menu-photo1 , .menu-photo6{
+    background: url(./dish2.webp) center/cover;
+    height: 300px;
+    width: 100vw;
+    
+}
+.menu-photo1   {
+    
+    background: url(./dish3.webp) center/cover;
+    height: 300px;
+    width: 100vw;
+    
+}
+.menu-photo2{
+    background: url(./dish2.webp) center/cover;
+    height: 300px;
+    width: 100vw;
+}
+.menu-photo3 , .menu-photo7 {
+    background: url(./dish4.webp) center/cover;
+    height: 300px;
+    width: 100vw;
+}
+.menu-photo4{
+    background: url(./dish5.webp) center/cover;
+    height: 300px;
+    width: 100vw;
+    
+}
+.menu-photo5{
+    background: url(./dish3.webp) center/cover;
+    height: 300px;
+    width: 100vw;
+    
+}
+  .card1{
+    background: url(./dish2.webp) center/cover; 
+    height: 400px;
+    width: 100vw;
+    
+}
+.card2{
+    background: url(./dish3.webp) center/cover; 
+    height: 400px;
+    width: 100vw;
+}
+
+
 .price1{
     padding-left: 35px;
     margin-top: 25px;
-    line-height: 1.4;
-    width: 82%;
-    
+    width: 100vw;
+  
 }
+.inst{
+    margin-top: 80px;
+}
+.blog{
+    margin-top: 20px;
+}
+
 .many{
     padding-top: 10px;
     font-size: 30px;
@@ -211,10 +291,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
-.far p{
+.away p{
     width:97% ;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 50px;
+    line-height: 1.5;
+    font-size: 20px;
 }
 .account img{
    width: 80px;
@@ -231,7 +313,7 @@ body{
     
 }
 .test h1:before{
-    border: 2px solid orange;
+    border-bottom: 2px solid orange;
     width: 80px;
     left: 50%;
 }
@@ -248,6 +330,7 @@ body{
     font-size: 14px;
 }
 .taste {
+    max-width: 100vw;
     margin-left: 30px;
     margin-top: 10px;
     
@@ -283,6 +366,11 @@ footer{
     margin-top: 100px;
     padding-left: 30px;
 }
+.end h3 , .info h3 , .comp .font , .spisok h4 , .hour , .links h3 {
+    color: #000;
+}
+
+
 .end .lorem1{
     padding-top: 15px;
     width: 90%;
@@ -306,6 +394,7 @@ ul{
     padding-top: 15px;
     line-height: 1.5;
 }
+
 .day{
     color: #000;
 }
@@ -332,8 +421,183 @@ ul{
     color: #74450f;
 }
 
+ @media (min-width:900px) {
+    body{
+        width: 100vw;
+    }
+    .header{
+        position: relative;
+    }
+    .home{
+        position: absolute;
+    }
+    .servic{
+        display: block;
+        flex-direction: row;
+        margin-right: 30px;
+    }
+    .icon{
+        display: none;
+    }
+    .home{
+        background-color: transparent;
 
- 
+    }
+    
+    .head{
+        margin-top: 38px;
+        padding-left: 20px;
+        
+        
+    }
+    .list{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row; 
+        padding-right: 20px;
+        
+    }
+    li{
+        padding: 0 8px 20px 8px;
+        font-size: 18px;
 
+    }
+    .photo img{
+        padding-left: 10%;
+        max-width: 80%;
+    }
 
+    .dolor{
+        padding-right: 1px;
+        margin-right: 80px;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .best{
+        width: 100%;
+        padding: 20%;
+    }
+    .second{
+        display: flex;
+        flex-direction: row;
+    }
+    .dish3 img{
+        padding-left: 10px;
+    }
+   
+    .web2{
+        display: block;
+        width: 30%;
+        margin-right: 5%;
+    }
+    .web3{
+        display: block;
+        width: 30%;
+        margin-right: 5%;
+    }
+    .web{
+        width: 30%;
+        margin-right: 5%;
+    }
+    .menu2{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .seti{
+       max-width: 35%;
+       margin-left: 45px;
+    
+    }
+    
+    .links{
+        max-width: 35%;
+        margin-right: 50px;
 
+    }
+    
+    .spisok{
+        padding-top: 0px;
+    }
+    .form1{
+        margin-right: 100px;
+    }
+    .menu-photo ,.menu-photo1 , .menu-photo2 , .menu-photo3 , .menu-photo4 , .menu-photo5 , .menu-photo5 , .menu-photo6 , .menu-photo7 {
+        width: 50%;
+        height: 200px;
+        
+    }
+    .price1{
+        width: 50%;
+        height: 200px; 
+        margin-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    .inside{
+        max-width: 97%;
+        padding-left: 35px;
+        padding-right: 15px;
+    }
+    .reverse1 , .reverse6 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .reverse2 , .reverse5{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+       
+        
+    }
+    .first , .ipsum ,.third , .four {
+        
+        display: flex;
+        flex-direction: row;
+    }
+    .reverse3 , .reverse7{
+        display: flex;
+        flex-direction: row;
+    }
+    .reverse4 , .reverse8{
+        display: flex;
+        flex-direction: row;
+    }
+    .card1 , .card2{
+        width: 90%;
+        height: 300px;
+    }
+    .taste{
+        width: 90%;
+    }
+    
+
+    .inst{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer{
+        margin-top: 200px;
+    }
+    
+    }
+    
+
+    
+
+    
+
+     

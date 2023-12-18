@@ -86,14 +86,9 @@ body{
 
 .rest{
     font-weight: 800;
-    margin-top: 100px;
-    border-top: 2px solid orangered;
-    width: 80px;
+    margin-top: 10px;
 }
-.rest p{
-    width: 350px;
-    padding-top: 20px;
-}
+
 
 .second{
     
@@ -129,20 +124,18 @@ body{
 }
 .good {
     font-weight: 900;
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
 
 }
 
 .best{
     width: 100%;
-    
     text-align: center;
     font-size: 40px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 35px;
-
+    
 }
 
 .dish img{
@@ -161,10 +154,10 @@ body{
     margin-top: 26px;
 }
 .menu{
-    margin-top: 150px;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
+    margin-top: 10px;
     font-family: 'DM Serif Display', serif;
    
 }
@@ -225,6 +218,7 @@ body{
     text-align: center;
     font-size: 50px;
     font-weight: 800;
+    margin-top: 10px;
 }
 
 .menu-photo{
@@ -331,9 +325,9 @@ body{
     margin-top: 20px;
     
 }
-.testimonial{
+/* .testimonial{
     margin-top: 150px;
-}
+} */
 
 .howard{
     margin-top: 20px;
@@ -404,7 +398,9 @@ footer{
 .logo img{
     width: 33px;
     padding-right: 15px;
+    
 }
+
 ul{
     text-decoration: none;
 }
@@ -443,8 +439,17 @@ ul{
     color: #74450f;
 }
 
-.test{
+/* .test{
     padding-top: 40px;
+} */
+.empty-best{
+    width: 90px;
+    border: 1.5px solid orangered;
+    margin-left: 46%;
+    margin-top: 115px;
+}
+.child{
+    margin-left: 2px;
 }
 
 
@@ -474,8 +479,7 @@ ul{
     .head{
         margin-top: 38px;
         padding-left: 20px;
-        
-        
+       
     }
     .list{
         margin-top: 35px;
@@ -492,6 +496,7 @@ ul{
     .photo img{
         padding-left: 10%;
         max-width: 80%;
+       
     }
 
     .dolor{
@@ -506,7 +511,7 @@ ul{
     
     .best{
         width: 100%;
-        padding: 14%;
+        
     }
     .second{
         display: flex;
@@ -578,7 +583,7 @@ ul{
         max-width: 97%;
         padding-left: 35px;
         padding-right: 15px;
-        margin-top: 120px;
+        margin-top: 75px;
     }
     .reverse1 , .reverse6 {
         display: flex;
@@ -597,8 +602,8 @@ ul{
         display: flex;
         flex-direction: row;
     }
-    .our{
-        margin-top: 80px;
+    .our-test{
+        margin-top: 15px;
     }
     .reverse3 , .reverse7{
         display: flex;
@@ -633,7 +638,7 @@ ul{
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+        margin-top: 20px;
     }
     .away{
         width: 50%;

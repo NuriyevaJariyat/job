@@ -218,7 +218,7 @@ body{
     text-align: center;
     font-size: 50px;
     font-weight: 800;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .menu-photo{
@@ -300,7 +300,6 @@ body{
     padding-top: 3px;
     font-size: 16px; 
     color: #868e96;
-    
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -325,9 +324,6 @@ body{
     margin-top: 20px;
     
 }
-/* .testimonial{
-    margin-top: 150px;
-} */
 
 .howard{
     margin-top: 20px;
@@ -435,22 +431,20 @@ ul{
     line-height: 1.8;
     color: orangered;
 }
-.about p:hover{
+.links li:hover{
     color: #74450f;
 }
 
-/* .test{
-    padding-top: 40px;
-} */
 .empty-best{
-    width: 90px;
+    width: 21%;
     border: 1.5px solid orangered;
-    margin-left: 46%;
+    margin-left: 37%;
     margin-top: 115px;
 }
 .child{
     margin-left: 2px;
 }
+
 
 
  @media (min-width:900px) {
@@ -645,6 +639,14 @@ ul{
     }
     .howard{
         margin-right: 370px;
+    }
+    .empty-best{
+        width:8% ;
+        margin-left: 46%;
+    }
+    .child{
+        margin-left: 1%;
+        width: 20%;
     }
 
 }
